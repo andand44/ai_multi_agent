@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+workspace/
+llm_cache/
+.DS_Store

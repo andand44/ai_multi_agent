@@ -1,0 +1,9 @@
+services:
+  ai_game_studio:
+    build: .
+    container_name: ai_game_studio
+    volumes:
+      - ./workspace:/app/workspace
+      - ./llm_cache:/app/llm_cache
+    env_file:
+      - .env
